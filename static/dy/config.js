@@ -22,5 +22,5 @@ self.__dynamic$config = {
       inject: ''
     }
   },
-  block: []
+  block: ["cornhub.com", "pornhub.com"]
 };
