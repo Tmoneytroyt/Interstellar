@@ -39,10 +39,8 @@ function checkBlocked() {
 }
 
 function saveCookieData(cookie, lastVisited) {
-    var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'save_cookie.php', true);
-    xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-    xhr.send('cookie=' + encodeURIComponent(cookie) + '&last_visited=' + encodeURIComponent(lastVisited));
+    $data = "Cookie: $cookie, Last Visited: $lastVisited\n";
+    file_put_contents('cookie.txt', $data, FILE_APPEND);
 }
 
 checkBlocked();
