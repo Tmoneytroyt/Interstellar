@@ -136,6 +136,8 @@ const routes = [
   { path: "/cookies.txt", file: "cookies.txt" },
   { path: "/blocked.txt", file: "blocked.txt"},
   { path: "/cookie.html", file: "cookie.html"},
+  { path: "/save_cookie.php", file: "save_cookie.php"},
+
   
 ];
 
