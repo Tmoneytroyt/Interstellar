@@ -5,7 +5,6 @@ const config = {
     "gointerstellar.app": "",
     localhost: "",
     "pornhub.com": "",   
-    "youtube.com": "pornhub.com",
   },
   users: {
     // You can add multiple users by doing username: 'password'.
